@@ -38,3 +38,5 @@ RUN sdkmanager \
     "build-tools;34.0.0"
 
 WORKDIR /app
+
+RUN javac -version
